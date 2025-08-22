@@ -7,7 +7,7 @@
 # <=	Less than or equal to	x <= y
 
 # Take input numbers
-x <- as.numeric(readline("Enter first number (x): "))
+x <- (readline("Enter first number (x): "))
 y <- as.numeric(readline("Enter second number (y): "))
 
 # Show menu
@@ -42,5 +42,18 @@ result <- switch(choice,
 
 # Print output in clear format
 cat("Comparison:", x, op_text, y, "=>", result, "\n")
+print(typeof(x))
+print(typeof(y))
+print(class(x))
+print(class(y))
 
+# typeof() → shows the internal storage mode of the object.
+
+# class() → shows the R-level abstraction / object-oriented class.
+# //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# Which one to use?
+
+# Use typeof() if you care about memory representation / precision (e.g., debugging numeric vs integer issues).
+
+# Use class() if you care about how R will treat the object in operations (e.g., in functions, models, or S3 methods).
 
