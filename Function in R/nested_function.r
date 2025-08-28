@@ -23,7 +23,10 @@ Outer_func <- function(x) {
   }
   return (Inner_func)
 }
+# both works same but two different ways
+# way:1
 # output <- Outer_func(3) # To call the Outer_func
 # output(5)
+# way:2
 output <- Outer_func
 output(9)(10)
