@@ -1,0 +1,11 @@
+Data Structures
+Data structures are used to store and organize values.
+
+R provides many built-in data structures. Each is used to handle data in different ways:
+
+Vectors
+Lists
+Matrices
+Arrays
+Data Frames
+We will explore all of them in detail later, but for now, here's a quick introduction to each one.
